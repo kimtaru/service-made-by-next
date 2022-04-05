@@ -1,0 +1,10 @@
+# FRONT
+/next/.next
+/next/node_modules
+
+# BACK
+/express/node_modules
+/express/.env
+
+# INFRA-CONFIG
+next-aws.pem
