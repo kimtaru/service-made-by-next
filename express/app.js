@@ -36,7 +36,7 @@ if (process.env.NODE_ENV === "production") {
 
 app.use(
   cors({
-    origin: ["http://localhost:3060", "tarusns.com", "http://52.79.154.81"],
+    origin: ["http://localhost:3060", "tarusns.com", "http://52.79.243.216"],
     credentials: true,
   })
 );
@@ -59,6 +59,6 @@ app.use("/posts", postsRouter);
 
 // app.use((err, req, res, next) => {});
 
-app.listen(3065, () => {
+app.listen(8080, () => {
   console.log("server on successfully...");
 });
